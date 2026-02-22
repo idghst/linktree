@@ -1,7 +1,7 @@
 {
   "statusLine": {
     "type": "command",
-    "command": "node /Users/idghst/.claude/hud/omc-hud.mjs"
+    "command": "bash /Users/idghst/.claude/statusline-command.sh"
   },
   "env": {
     "ENABLE_TOOL_SEARCH": "auto:1",

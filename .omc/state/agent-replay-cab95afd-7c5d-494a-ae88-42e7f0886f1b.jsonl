@@ -1,0 +1,3 @@
+{"t":0,"agent":"ad6d9ce","agent_type":"statusline-setup","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"ad6d9ce","agent_type":"statusline-setup","event":"agent_stop","success":true,"duration_ms":63834}
+{"t":0,"agent":"a4338ba","agent_type":"unknown","event":"agent_stop","success":true}

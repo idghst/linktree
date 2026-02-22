@@ -69,6 +69,12 @@
   },
   "hotPaths": [
     {
+      "path": ".claude/settings.json",
+      "accessCount": 7,
+      "lastAccessed": 1771752432424,
+      "type": "file"
+    },
+    {
       "path": "frontend/components.json",
       "accessCount": 2,
       "lastAccessed": 1771750712333,
@@ -192,6 +198,12 @@
       "path": "frontend/src/contexts/AuthContext.tsx",
       "accessCount": 1,
       "lastAccessed": 1771750550617,
+      "type": "file"
+    },
+    {
+      "path": ".claude/settings.local.json",
+      "accessCount": 1,
+      "lastAccessed": 1771751294596,
       "type": "file"
     }
   ],
