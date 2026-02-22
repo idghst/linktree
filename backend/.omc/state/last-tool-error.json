@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cat /Users/idghst/dev/linktree/backend/app/schemas/auth.py && cat /Users/idghst/dev/linktree/backend/app/services/profile.py\",\"description\":\"auth 스키마 및 profile 서비스 확인\"}",
+  "error": "Exit code 1\ncat: /Users/idghst/dev/linktree/backend/app/schemas/auth.py: No such file or directory\n\ncat: /Users/idghst/dev/linktree/backend/app/schemas/auth.py: No such file or directory",
+  "timestamp": "2026-02-22T07:32:40.906Z",
+  "retry_count": 1
+}

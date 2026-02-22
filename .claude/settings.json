@@ -1,0 +1,26 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "node /Users/idghst/.claude/hud/omc-hud.mjs"
+  },
+  "env": {
+    "ENABLE_TOOL_SEARCH": "auto:1",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(ls:*)",
+      "Bash(curl:*)",
+      "Bash(tail:*)",
+      "Bash(find:*)"
+    ],
+    "defaultMode": "plan"
+  },
+  "model": "sonnet",
+  "language": "Korean",
+  "skipDangerousModePermissionPrompt": true,
+  "enabledPlugins": {
+    "oh-my-claudecode@omc": true
+  }
+}

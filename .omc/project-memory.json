@@ -1,0 +1,199 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771750492278,
+  "projectRoot": "/Users/idghst/dev/linktree",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "backend": {
+      "path": "backend",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1771750492267,
+      "keyFiles": [
+        "CLAUDE.md",
+        "Dockerfile",
+        "alembic.ini",
+        "pyproject.toml",
+        "requirements-test.txt"
+      ]
+    },
+    "frontend": {
+      "path": "frontend",
+      "purpose": null,
+      "fileCount": 13,
+      "lastAccessed": 1771750492267,
+      "keyFiles": [
+        "CLAUDE.md",
+        "Dockerfile",
+        "components.json",
+        "eslint.config.mjs",
+        "next-env.d.ts"
+      ]
+    },
+    "backend/app": {
+      "path": "backend/app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1771750492268,
+      "keyFiles": [
+        "CLAUDE.md",
+        "__init__.py",
+        "main.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "frontend/components.json",
+      "accessCount": 2,
+      "lastAccessed": 1771750712333,
+      "type": "file"
+    },
+    {
+      "path": "docker-compose.yml",
+      "accessCount": 1,
+      "lastAccessed": 1771750526897,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 1,
+      "lastAccessed": 1771750527080,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1771750527329,
+      "type": "file"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1771750533503,
+      "type": "file"
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "accessCount": 1,
+      "lastAccessed": 1771750533698,
+      "type": "file"
+    },
+    {
+      "path": "frontend/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1771750533931,
+      "type": "file"
+    },
+    {
+      "path": "backend/CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1771750534256,
+      "type": "file"
+    },
+    {
+      "path": "frontend/CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1771750534366,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/main.py",
+      "accessCount": 1,
+      "lastAccessed": 1771750541159,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "accessCount": 1,
+      "lastAccessed": 1771750541357,
+      "type": "file"
+    },
+    {
+      "path": "frontend/src/app/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771750541648,
+      "type": "file"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1771750541874,
+      "type": "file"
+    },
+    {
+      "path": "frontend/next.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771750542065,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/models/user.py",
+      "accessCount": 1,
+      "lastAccessed": 1771750545455,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/models/link.py",
+      "accessCount": 1,
+      "lastAccessed": 1771750545848,
+      "type": "file"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "accessCount": 1,
+      "lastAccessed": 1771750545905,
+      "type": "file"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "accessCount": 1,
+      "lastAccessed": 1771750546047,
+      "type": "file"
+    },
+    {
+      "path": "backend/app/graphql/schema.py",
+      "accessCount": 1,
+      "lastAccessed": 1771750549951,
+      "type": "file"
+    },
+    {
+      "path": "frontend/src/lib/graphql-client.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771750550371,
+      "type": "file"
+    },
+    {
+      "path": "frontend/src/contexts/AuthContext.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771750550617,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -1,0 +1,7 @@
+{"t":0,"agent":"a2c3cbf","agent_type":"analyst","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a2c3cbf","agent_type":"analyst","event":"agent_stop","success":true,"duration_ms":106062}
+{"t":0,"agent":"aa1e939","agent_type":"executor","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a172303","agent_type":"executor","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"aa1e939","agent_type":"executor","event":"agent_stop","success":true,"duration_ms":121657}
+{"t":0,"agent":"a172303","agent_type":"executor","event":"agent_stop","success":true,"duration_ms":149265}
+{"t":0,"agent":"a089d9e","agent_type":"unknown","event":"agent_stop","success":true}

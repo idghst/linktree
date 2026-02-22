@@ -1,0 +1,60 @@
+# 파일 목적: 개발 환경 Docker Compose 설정
+# 주요 기능: postgres, backend, frontend 서비스 정의 및 healthcheck
+# 사용 방법: docker compose up --build
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-linktree}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-linktree_password}
+      POSTGRES_DB: ${POSTGRES_DB:-linktree_db}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-linktree} -d ${POSTGRES_DB:-linktree_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    restart: always
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-linktree}:${POSTGRES_PASSWORD:-linktree_password}@postgres:5432/${POSTGRES_DB:-linktree_db}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+    command: >
+      sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+
+  frontend:
+    restart: always
+    image: node:20-alpine
+    working_dir: /app
+    command: sh -c "npm install -g pnpm && pnpm install && pnpm dev"
+    environment:
+      API_URL: http://backend:8000
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

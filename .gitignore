@@ -1,0 +1,72 @@
+# 환경변수 / 시크릿
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# 테스트 / 커버리지
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+.ruff_cache/
+
+# Alembic
+# (마이그레이션 파일은 커밋하되 캐시/임시 파일 제외)
+
+# Node.js / pnpm
+node_modules/
+.pnpm-store/
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+.vercel
+
+# 빌드 산출물
+dist/
+build/
+
+# Docker 볼륨 데이터
+postgres-data/
+pgdata/
+
+# IDE / 편집기
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# 로그
+*.log
+logs/
+
+#Claude
+.agent-team/

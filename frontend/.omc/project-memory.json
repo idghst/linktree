@@ -1,0 +1,467 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771703330768,
+  "projectRoot": "/Users/idghst/dev/linktree/frontend",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.1.3",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "vitest",
+        "version": "4.0.18",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "pnpm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "pnpm build",
+    "testCommand": "pnpm test",
+    "lintCommand": "pnpm lint",
+    "devCommand": "pnpm dev",
+    "scripts": {
+      "dev": "next dev --turbopack",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "test": "vitest",
+      "test:run": "vitest run",
+      "test:ui": "vitest --ui"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1771703330753,
+      "keyFiles": [
+        "CLAUDE.md"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 2,
+      "lastAccessed": 1771703330753,
+      "keyFiles": [
+        "CLAUDE.md",
+        "middleware.ts"
+      ]
+    },
+    "src/__tests__": {
+      "path": "src/__tests__",
+      "purpose": "Test files",
+      "fileCount": 5,
+      "lastAccessed": 1771703330757,
+      "keyFiles": [
+        "AuthContext.test.tsx",
+        "api-client.test.ts",
+        "useApi.test.ts"
+      ]
+    },
+    "src/app": {
+      "path": "src/app",
+      "purpose": "Application code",
+      "fileCount": 6,
+      "lastAccessed": 1771703330758,
+      "keyFiles": [
+        "CLAUDE.md",
+        "globals.css",
+        "icon.tsx"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 1,
+      "lastAccessed": 1771703330758,
+      "keyFiles": [
+        "CLAUDE.md"
+      ]
+    },
+    "src/lib": {
+      "path": "src/lib",
+      "purpose": "Library code",
+      "fileCount": 4,
+      "lastAccessed": 1771703330758,
+      "keyFiles": [
+        "CLAUDE.md",
+        "api-client.ts",
+        "constants.ts"
+      ]
+    },
+    "src/services": {
+      "path": "src/services",
+      "purpose": "Business logic services",
+      "fileCount": 5,
+      "lastAccessed": 1771703330758,
+      "keyFiles": [
+        "CLAUDE.md",
+        "analytics.ts",
+        "auth.ts"
+      ]
+    },
+    "src/test": {
+      "path": "src/test",
+      "purpose": "Test files",
+      "fileCount": 2,
+      "lastAccessed": 1771703330758,
+      "keyFiles": [
+        "sample.test.ts",
+        "setup.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 15,
+      "lastAccessed": 1771750090169,
+      "type": "directory"
+    },
+    {
+      "path": "src/lib/api-client.ts",
+      "accessCount": 14,
+      "lastAccessed": 1771747911152,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/ShareModal.tsx",
+      "accessCount": 13,
+      "lastAccessed": 1771750097842,
+      "type": "file"
+    },
+    {
+      "path": "src/contexts/AuthContext.tsx",
+      "accessCount": 12,
+      "lastAccessed": 1771750107176,
+      "type": "file"
+    },
+    {
+      "path": "src/app/dashboard/links/page.tsx",
+      "accessCount": 11,
+      "lastAccessed": 1771750116096,
+      "type": "file"
+    },
+    {
+      "path": "src/app/dashboard/profile/page.tsx",
+      "accessCount": 11,
+      "lastAccessed": 1771750116284,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/useApi.ts",
+      "accessCount": 10,
+      "lastAccessed": 1771750112990,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/Toast.tsx",
+      "accessCount": 10,
+      "lastAccessed": 1771750117624,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/ShareModal.test.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1771746911587,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/DashboardSidebar.test.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1771747253045,
+      "type": "file"
+    },
+    {
+      "path": "src/__tests__/useApi.test.ts",
+      "accessCount": 9,
+      "lastAccessed": 1771749103608,
+      "type": "file"
+    },
+    {
+      "path": "src/app/auth/login/page.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1771750100424,
+      "type": "file"
+    },
+    {
+      "path": "src/app/auth/register/page.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1771750100649,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/DashboardSidebar.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1771750117167,
+      "type": "file"
+    },
+    {
+      "path": "src/__tests__/api-client.test.ts",
+      "accessCount": 7,
+      "lastAccessed": 1771747935847,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 7,
+      "lastAccessed": 1771748778405,
+      "type": "directory"
+    },
+    {
+      "path": "src/app/dashboard/settings/page.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1771750106799,
+      "type": "file"
+    },
+    {
+      "path": "src/app/[username]/page.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1771750116601,
+      "type": "file"
+    },
+    {
+      "path": "src/types/api.ts",
+      "accessCount": 7,
+      "lastAccessed": 1771750121476,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/Modal.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1771750117387,
+      "type": "file"
+    },
+    {
+      "path": "src/app/[username]/TrackedLink.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1771747228697,
+      "type": "file"
+    },
+    {
+      "path": "src/services/auth.ts",
+      "accessCount": 5,
+      "lastAccessed": 1771747911636,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/SocialIconPicker.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1771750097626,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/constants.ts",
+      "accessCount": 5,
+      "lastAccessed": 1771750113457,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/Modal.test.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1771746905014,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/Avatar.test.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1771747248431,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 4,
+      "lastAccessed": 1771750091958,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/LinkCard.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1771750092858,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/Avatar.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1771750096587,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "accessCount": 4,
+      "lastAccessed": 1771750113229,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/Button.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1771750116886,
+      "type": "file"
+    },
+    {
+      "path": "src/app/globals.css",
+      "accessCount": 4,
+      "lastAccessed": 1771750216252,
+      "type": "file"
+    },
+    {
+      "path": "src/__tests__/components.test.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771709981941,
+      "type": "file"
+    },
+    {
+      "path": "src/__tests__/LinkForm.test.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771710316948,
+      "type": "file"
+    },
+    {
+      "path": "vitest.config.ts",
+      "accessCount": 3,
+      "lastAccessed": 1771746913596,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/Toast.test.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771747250286,
+      "type": "file"
+    },
+    {
+      "path": "src/__tests__/AuthContext.test.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771749135118,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/Input.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771750092412,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/Spinner.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771750096851,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ui/ThemeSelector.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771750097426,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/Header.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771750100937,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/LinkCard.test.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1771746911060,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/Spinner.test.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1771747249330,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/ThemeSelector.test.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1771747251207,
+      "type": "file"
+    },
+    {
+      "path": "src/test/setup.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771708881242,
+      "type": "file"
+    },
+    {
+      "path": "src/__tests__/TrackedLink.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771710101413,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1771746878803,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/Button.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771746904324,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/Input.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771746904831,
+      "type": "file"
+    },
+    {
+      "path": "src/components/__tests__/Header.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771746907462,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

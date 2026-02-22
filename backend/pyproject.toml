@@ -1,0 +1,23 @@
+# 파일 목적: Python 프로젝트 메타데이터 및 도구 설정
+# 주요 기능: 프로젝트 정보, ruff 린터 설정
+# 사용 방법: pip install -e . 또는 ruff check . 으로 사용
+
+[tool.poetry]
+name = "linktree-backend"
+version = "0.1.0"
+description = "Linktree 클론 백엔드 API"
+authors = ["Linktree Dev"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]

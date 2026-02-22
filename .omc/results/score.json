@@ -1,0 +1,27 @@
+{
+  "score": 100,
+  "backend": {
+    "tests_passed": 232,
+    "tests_total": 232,
+    "pass_rate": 1.0,
+    "coverage": 1.0,
+    "score": 50
+  },
+  "frontend": {
+    "tests_passed": 175,
+    "tests_total": 175,
+    "pass_rate": 1.0,
+    "coverage": 1.0,
+    "score": 50
+  },
+  "formula": "backend_pass(30) + frontend_pass(30) + backend_cov(20) + frontend_cov(20)",
+  "achieved_at": "2026-02-22",
+  "features_added": [
+    "is_sensitive",
+    "scheduled_start",
+    "scheduled_end",
+    "link_type",
+    "seo_settings",
+    "favicon_url"
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771708538614,
+  "projectRoot": "/Users/idghst/dev/linktree/backend",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml",
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "pytest",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": "snake_case",
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "tests"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "alembic": {
+      "path": "alembic",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1771708538601,
+      "keyFiles": [
+        "CLAUDE.md",
+        "env.py",
+        "script.py.mako"
+      ]
+    },
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1771708538601,
+      "keyFiles": [
+        "CLAUDE.md",
+        "__init__.py",
+        "main.py"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 12,
+      "lastAccessed": 1771708538602,
+      "keyFiles": [
+        "__init__.py",
+        "conftest.py",
+        "test_analytics.py",
+        "test_auth.py",
+        "test_links.py"
+      ]
+    },
+    "app/models": {
+      "path": "app/models",
+      "purpose": "Data models",
+      "fileCount": 5,
+      "lastAccessed": 1771708538602,
+      "keyFiles": [
+        "CLAUDE.md",
+        "__init__.py",
+        "analytics.py"
+      ]
+    },
+    "app/schemas": {
+      "path": "app/schemas",
+      "purpose": "Schema definitions",
+      "fileCount": 7,
+      "lastAccessed": 1771708538602,
+      "keyFiles": [
+        "CLAUDE.md",
+        "__init__.py",
+        "analytics.py"
+      ]
+    },
+    "app/services": {
+      "path": "app/services",
+      "purpose": "Business logic services",
+      "fileCount": 6,
+      "lastAccessed": 1771708538602,
+      "keyFiles": [
+        "CLAUDE.md",
+        "__init__.py",
+        "analytics.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "app/services/profile.py",
+      "accessCount": 7,
+      "lastAccessed": 1771745750104,
+      "type": "file"
+    },
+    {
+      "path": "app/main.py",
+      "accessCount": 6,
+      "lastAccessed": 1771745378867,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_services_profile.py",
+      "accessCount": 6,
+      "lastAccessed": 1771745767689,
+      "type": "file"
+    },
+    {
+      "path": "app/models/link.py",
+      "accessCount": 5,
+      "lastAccessed": 1771745719592,
+      "type": "file"
+    },
+    {
+      "path": "app/schemas/profile.py",
+      "accessCount": 5,
+      "lastAccessed": 1771745740127,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_services_analytics.py",
+      "accessCount": 4,
+      "lastAccessed": 1771708622843,
+      "type": "file"
+    },
+    {
+      "path": "app/schemas/link.py",
+      "accessCount": 4,
+      "lastAccessed": 1771745377177,
+      "type": "file"
+    },
+    {
+      "path": "app/core/security.py",
+      "accessCount": 4,
+      "lastAccessed": 1771745397323,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 4,
+      "lastAccessed": 1771745404136,
+      "type": "directory"
+    },
+    {
+      "path": "app/dependencies/db.py",
+      "accessCount": 3,
+      "lastAccessed": 1771708785119,
+      "type": "file"
+    },
+    {
+      "path": "app/routers/auth.py",
+      "accessCount": 3,
+      "lastAccessed": 1771745373246,
+      "type": "file"
+    },
+    {
+      "path": "app/core/config.py",
+      "accessCount": 3,
+      "lastAccessed": 1771745396853,
+      "type": "file"
+    },
+    {
+      "path": "app/services/link.py",
+      "accessCount": 3,
+      "lastAccessed": 1771745716098,
+      "type": "file"
+    },
+    {
+      "path": "app/models/user.py",
+      "accessCount": 3,
+      "lastAccessed": 1771745723407,
+      "type": "file"
+    },
+    {
+      "path": "tests/conftest.py",
+      "accessCount": 3,
+      "lastAccessed": 1771745763939,
+      "type": "file"
+    },
+    {
+      "path": "app/schemas/user.py",
+      "accessCount": 2,
+      "lastAccessed": 1771745756221,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_dependencies_auth.py",
+      "accessCount": 1,
+      "lastAccessed": 1771708545604,
+      "type": "file"
+    },
+    {
+      "path": "app/services/analytics.py",
+      "accessCount": 1,
+      "lastAccessed": 1771708545749,
+      "type": "file"
+    },
+    {
+      "path": "app/core/exceptions.py",
+      "accessCount": 1,
+      "lastAccessed": 1771708549725,
+      "type": "file"
+    },
+    {
+      "path": "app/dependencies/auth.py",
+      "accessCount": 1,
+      "lastAccessed": 1771708552892,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_schemas_link.py",
+      "accessCount": 1,
+      "lastAccessed": 1771708569614,
+      "type": "file"
+    },
+    {
+      "path": "pyproject.toml",
+      "accessCount": 1,
+      "lastAccessed": 1771708587314,
+      "type": "file"
+    },
+    {
+      "path": "alembic/versions/006_add_link_scheduling_and_sensitive.py",
+      "accessCount": 1,
+      "lastAccessed": 1771740911444,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_link_features.py",
+      "accessCount": 1,
+      "lastAccessed": 1771740922845,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_links.py",
+      "accessCount": 1,
+      "lastAccessed": 1771740923398,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1771740923821,
+      "type": "file"
+    },
+    {
+      "path": "alembic/versions/007_add_link_type.py",
+      "accessCount": 1,
+      "lastAccessed": 1771740947032,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_link_type.py",
+      "accessCount": 1,
+      "lastAccessed": 1771741000884,
+      "type": "file"
+    },
+    {
+      "path": "app",
+      "accessCount": 1,
+      "lastAccessed": 1771745364935,
+      "type": "directory"
+    },
+    {
+      "path": "app/routers",
+      "accessCount": 1,
+      "lastAccessed": 1771745366056,
+      "type": "directory"
+    },
+    {
+      "path": "app/models",
+      "accessCount": 1,
+      "lastAccessed": 1771745366551,
+      "type": "directory"
+    },
+    {
+      "path": "app/schemas",
+      "accessCount": 1,
+      "lastAccessed": 1771745367025,
+      "type": "directory"
+    },
+    {
+      "path": "app/routers/links.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745373449,
+      "type": "file"
+    },
+    {
+      "path": "app/routers/profile.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745373800,
+      "type": "file"
+    },
+    {
+      "path": "app/routers/public.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745374230,
+      "type": "file"
+    },
+    {
+      "path": "app/routers/analytics.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745374706,
+      "type": "file"
+    },
+    {
+      "path": "app/routers/health.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745375031,
+      "type": "file"
+    },
+    {
+      "path": "app/models/analytics.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745376648,
+      "type": "file"
+    },
+    {
+      "path": "app/schemas/analytics.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745378034,
+      "type": "file"
+    },
+    {
+      "path": "app/schemas/token.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745378372,
+      "type": "file"
+    },
+    {
+      "path": "app/services/auth.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745395466,
+      "type": "file"
+    },
+    {
+      "path": "app/services",
+      "accessCount": 1,
+      "lastAccessed": 1771745404874,
+      "type": "directory"
+    },
+    {
+      "path": "tests/test_profile.py",
+      "accessCount": 1,
+      "lastAccessed": 1771745765054,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

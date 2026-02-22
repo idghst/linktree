@@ -1,0 +1,3 @@
+# 파일 목적: schemas 패키지 초기화
+# 주요 기능: 하위 모듈 export
+# 사용 방법: from app.schemas import ...
